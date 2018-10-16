@@ -41,7 +41,8 @@
       body {
         /*height: 100%;*/
         background-image: url("images/universe.jpg");
-
+        background-repeat: no-repeat;
+        background-size: cover;
       }
 
       body {
@@ -85,6 +86,13 @@
         border-top-right-radius: 0;
       }
 
+      @media (max-width: 768px) {
+        body{
+           background-image: url("images/universe2.jpg");
+           background-size: cover;
+        }
+        
+      }
 		 	
 
 		 </style>
@@ -100,7 +108,7 @@
       -->
 
     
-<body class="text-center">
+<body class="text-center play-section">
     <form class="form-signin">
       <img class="mb-2" src="https://steamcdn-a.akamaihd.net/steam/apps/316750/header.jpg?t=1450226803" alt="" width="300" height="150">
       <h1 class="h3 mb-3 font-weight-normal">Ready to play </h1>
