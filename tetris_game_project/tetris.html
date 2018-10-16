@@ -52,7 +52,24 @@
           border: solid 0.2em blue;
           margin: auto;
         }
-
+@media (max-width:1025px){
+    #instructions{
+          margin: auto;
+          background: lightblue;
+          color: white;
+          width: 90%;
+          padding-top: 2em;
+          padding-bottom: 2em;
+          margin-top: 1em;
+          display: block;
+        }
+    }
+@media (min-width:1025px){
+    #instructions{
+      display:none;
+    }
+  }
+        
         /* GAME OVER */ 
 
 
@@ -76,7 +93,8 @@
 
 
     <div id="score"> Score :  </div>
-    <canvas id="tetris" width="240" height="400"> 
+    <canvas id="tetris" width="240" height="400"> </canvas>
+    <div id="instructions"> Swipe left or right to move the piece and touch anywhere on the screen to rotate the piece </div> 
     <script src="tetris.js"></script>
      
     
