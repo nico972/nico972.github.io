@@ -171,8 +171,8 @@ function playerMove(dir){
 }
 
 function gameOver(){
-    myMusic.stop(); 
-    mySound.play(); 
+    //myMusic.stop(); 
+    //mySound.play(); 
 
     context.fillStyle = "#E0F8F7";
     //context.fillRect(0,canvas.height/(20*4),canvas.width, canvas.height/(20*2)); 
@@ -446,7 +446,7 @@ swipedetect(el, function(swipedir){
 //music
 mySound = new sound("music/game_over.ogg"); 
 myMusic = new sound("music/country.mp3"); 
-myMusic.play();
+//myMusic.play();
 
 playerReset(); 
 updateScore();
