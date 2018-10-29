@@ -57,4 +57,4 @@ async function main(canvas) {
 }
 
 const canvas = document.getElementById('screen');
-main(canvas);
+//main(canvas);
